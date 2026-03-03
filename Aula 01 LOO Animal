@@ -1,0 +1,48 @@
+String nomeAnimal; Bredd Pincher 
+int numeroDePatas; 10
+boolean TemRabo; sim 
+String cor; preto
+int idade; 3
+double peso; 30 kg
+String tipoAlimentacao; carne
+char genero; macho 
+ 
+ public void printStatus() { 
+    System.out.println("Nome: " + nomeAnimal);
+    System.out.println("Número de patas: " + numeroDePatas);
+    System.out.println("Tem Rabo?: " + temRabo);
+    System.out.println("Cor: " + cor);
+    System.out.println("Idade:" + idade);
+    System.out.println("Peso:" + peso);
+    System.out.println("Tipo de Alimentação: " + tipoAlimentacao);
+    System.out.println("Gênero:" + genero);
+    System.out.println("------------------------");
+ }
+ 
+ public static void main(String[] args) {
+    Animal cachorro = new Animal();
+    cachorro.nomeAnimal = "Bredd Pincher";
+    cachorro.numeroDePatas = 4;
+    cachorro.temRabo = true;
+    cachorro.cor = "Preto"    
+    cachorro.idade = 3;
+    cachorro.peso =  30;
+    cachorro.tipoAlimentacao = "Carne";
+    cachorro.genero = "M";
+    
+    Animal gato = new Animal();
+gato.nomeAnimal = "Mingau";
+gato.numeroDePatas = 4;
+gato.temRabo = true;
+gato.cor = "Cinza";
+gato.idade = 2;
+gato.peso = 4.2;
+gato.tipoAlimentacao = "Ração e peixe";
+gato.genero = 'F';
+    
+   cachorro.printStatus();
+   gato.printStatus();
+  }
+  
+}
+ 
