@@ -47,3 +47,24 @@ public class Animal {
         gato.printStatus();
     }
 }
+
+REPOSTA :
+Nome: Bredd Pincher
+Número de patas: 4
+Tem Rabo?: true
+Cor: Preto
+Idade: 3
+Peso: 30.0
+Tipo de Alimentação: Carne
+Gênero: M
+------------------------
+Nome: Mingau
+Número de patas: 4
+Tem Rabo?: true
+Cor: Cinza
+Idade: 2
+Peso: 4.2
+Tipo de Alimentação: Ração e peixe
+Gênero: F
+------------------------
+
