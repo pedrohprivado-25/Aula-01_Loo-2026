@@ -48,7 +48,7 @@ public class Animal {
     }
 }
 
-REPOSTA :
+RESPOSTA :
 Nome: Bredd Pincher
 Número de patas: 4
 Tem Rabo?: true
